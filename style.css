@@ -1,0 +1,92 @@
+body{
+    background-color:#202124;
+    text-align: center;
+}
+.googleLogo{
+    margin:100px;
+}
+input{
+    width:400px;
+    height:30px;
+    border-radius:100px;
+    border:1px solid #ffffff;
+    background-color: #575757;
+}
+input:hover{
+    background-color: #202124;
+    border:2px solid aqua;
+}
+.iconrenk{
+    color: white;
+    font-size: 20px;
+}
+.mic:hover{
+    color: red;
+    font-size: 30px;
+    border:2px solid red;
+    border-radius: 50%;
+    padding: 10px;
+}
+.ara:hover{
+    color: orange;
+    font-size: 30px;
+    border:2px solid orange;
+    border-radius: 50%;
+    padding: 10px;
+}
+.klavye:hover{
+    color: green;
+    font-size: 30px;
+    border:2px solid green;
+    border-radius: 50%;
+    padding: 10px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color:aqua;
+    margin-top: 20px;
+    border: 1px solid ;
+    border-radius: 100px;
+
+}
+.btn:hover{
+    background-color: #202124;
+    border: 2px solid red;
+    color: white;
+}
+ul{
+    list-style-type:none;
+    text-align: right;
+    display: flex;
+}
+li{
+    color: white;
+    position: relative;
+    margin-left: 100px;
+
+}
+li>a{
+    text-decoration: none;
+    color: white;
+}
+li>a:hover{
+    text-decoration: underline;
+}
+.fa-tools:hover{
+    background-color: #575757;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 3px;
+}
+.profil{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff2d2d+0,fbff2d+25,ff2d2d+50,fbff2d+75,ff2d2d+100 */
+background: rgb(255,45,45); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(255,45,45,1) 0%, rgba(251,255,45,1) 25%, rgba(255,45,45,1) 50%, rgba(251,255,45,1) 75%, rgba(255,45,45,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,45,45,1) 0%,rgba(251,255,45,1) 25%,rgba(255,45,45,1) 50%,rgba(251,255,45,1) 75%,rgba(255,45,45,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,45,45,1) 0%,rgba(251,255,45,1) 25%,rgba(255,45,45,1) 50%,rgba(251,255,45,1) 75%,rgba(255,45,45,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2d2d', endColorstr='#ff2d2d',GradientType=1 ); /* IE6-9 */
+border-radius: 50%;
+padding: 3px;
+}    
